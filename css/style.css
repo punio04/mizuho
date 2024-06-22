@@ -567,7 +567,7 @@ main {
 }
 
 .techItem h3 {
-  background: url(/img/bg1.jpg);
+  background: url(../img/bg1.jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -691,7 +691,7 @@ main {
 
 .techVline {
   padding: 7rem;
-  background: url(/img/vline.jpg);
+  background: url(../img/vline.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -820,7 +820,7 @@ main {
 }
 
 .techdetail {
-  background: url(/img/techdetail.jpg);
+  background: url(../img/techdetail.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -911,7 +911,7 @@ main {
 }
 
 .faq {
-  background: url(/img/faq.jpg);
+  background: url(../img/faq.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -1201,7 +1201,7 @@ li {
 }
 
 .profile_box .profile {
-  background-color: #fff;
+  background-color: #fafafa;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1428,7 +1428,7 @@ a:link {
   text-align: right;
   padding-top: 8%;
   padding-left: 7%;
-  background-image: url(/img/icon_tel.svg);
+  background-image: url(../img/icon_tel.png);
   background-size: 10%;
   background-repeat: no-repeat;
   background-position: 0% 90%;
@@ -1438,14 +1438,14 @@ a:link {
 .announce__tel-num {
   display: block;
   font-family: 'Gothic A1', sans-serif;
-  font-size: 43px;
+  font-size: 9.3vw;
   font-weight: 900;
   color: #7E3D3A;
   line-height: 1.0rem;
   text-align: right;
   padding-top: 9%;
   padding-left: 7%;
-  background-image: url(/img/icon_tel.svg);
+  background-image: url(../img/icon_tel.png);
   background-size: 10%;
   background-repeat: no-repeat;
   background-position: 0% 90%;
@@ -1614,11 +1614,6 @@ a:link {
     grid-area: text;
   }
 
-  .announce__tel-num {
-    font-size: 43px;
-    padding-top: 9%;
-  }
-
   .l-contact-lp {
     margin: 50px auto;
     padding: 20px 0;
@@ -1654,13 +1649,9 @@ a:link {
   }
 
   .announce__tel-num {
-    font-size: 43px;
+    font-size: 36px;
     padding-top: 9%;
-  }
-
-  .announce__tel-num {
-    font-size: 43px;
-    padding-top: 9%;
+    
   }
 
   .announce__tel {
@@ -1855,7 +1846,7 @@ a:link {
   }
 
   .descMediaImg {
-    content: url(/img/desc_sp.jpg);
+    content: url(../img/desc_sp.jpg);
   }
 
   .descMedia p {
@@ -1875,7 +1866,7 @@ a:link {
   }
 
   .onayamiMediaImg {
-    content: url(/img/onayami_sp.jpg?20231228);
+    content: url(../img/onayami_sp.jpg?20231228);
   }
 
   .onayamiBtn {
@@ -2085,7 +2076,7 @@ a:link {
   }
 
   .profileMedia img {
-    content: url(/img/desc.jpg);
+    content: url(../img/desc.jpg);
   }
 
   .bBoxGray {
@@ -2886,7 +2877,7 @@ a {
 }
 
 .faq {
-  background: url(/img/faq.jpg);
+  background: url(../img/faq.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -3193,7 +3184,7 @@ a {
   }
 
   .descMediaImg {
-    content: url(/img/desc_sp.jpg);
+    content: url(../img/desc_sp.jpg);
   }
 
   .descMedia p {
@@ -3299,7 +3290,7 @@ a {
   }
 
   .profileMedia img {
-    content: url(/img/profile_sp.jpg);
+    content: url(../img/profile_sp.jpg);
   }
 
   .bBoxGray {
@@ -3349,7 +3340,7 @@ recommend
 
 @media screen and (max-width: 767px) {
   .recommendMediaImg {
-    content: url(/img/recommend_sp.jpg);
+    content: url(../img/recommend_sp.jpg);
   }
 
   .recommendText {
@@ -3833,14 +3824,14 @@ reason
 
 @media (max-width: 768px) {
   .fvMediaImg {
-    content: url(/img/main_sp.jpg?20240417);
+    content: url(../img/main_sp.jpg?20240417);
   }
 }
 
 @media (min-width: 768.1px) {
   .fvMedia {
     width: 100%;
-    background-image: url(/img/main-bg.jpg?20240417);
+    background-image: url(../img/main-bg.jpg?20240417);
     background-size: cover;
     height: auto;
   }
@@ -4133,7 +4124,6 @@ a img:hover {
 /* ------------footer------------ */
 .footer {
   width: 100%;
-  max-width: 1000px;
   margin: 50px auto 0 auto;
   position: relative;
 }
@@ -4319,8 +4309,7 @@ a img:hover {
 	PROFILE
 ---------------------------------- */
 .profile_box {
-  padding-top: 50px;
-  margin: 0px 10px 50px 10px;
+  margin: 0px 10px 0px 10px;
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: #DEDEDE;
@@ -4382,8 +4371,8 @@ a img:hover {
 
 @media (max-width: 680px) {
   .profile_box {
-    padding-top: 30px;
-    margin: 0px 10px 30px 10px;
+    padding-top: 0px;
+    margin: 0px 10px 0px 10px;
   }
 
   .profile_box h3 {
@@ -4717,7 +4706,7 @@ a img:hover {
   line-height: 1.0rem;
   text-align: right;
   padding-top: 2%;
-  background-image: url(/img/icon_tel.svg);
+  background-image: url(../img/icon_tel.png);
   background-size: 10%;
   background-repeat: no-repeat;
   background-position: 0% 70%;
@@ -4893,20 +4882,6 @@ a img:hover {
 
 
 
-
-.announce__tel-num {
-  display: block;
-  font-family: 'Gothic A1', sans-serif;
-  font-size: 9.3vw;
-  font-weight: 900;
-  color: #7E3D3A;
-  line-height: 1.0rem;
-  text-align: right;
-  padding-top: 8%;
-  padding-left: 7%;
-  background-image: url(/img/icon_tel.svg);
-  background-size: 10%;
-  background-repeat: no-repeat;
-  background-position: 0% 90%;
-  letter-spacing: -0.03em;
+.m-text-color-important-dark {
+  color: var(--color-brand);
 }

@@ -347,7 +347,7 @@
     text-align: right;
     padding-top: 4%;
     padding-left: 10%;
-    background-image: url("/img/icon_tel.svg");
+    background-image: url(../img/icon_tel.png);
     background-size: 10%;
     background-repeat: no-repeat;
     background-position: 0% 70%;
@@ -1052,7 +1052,7 @@
   }
 
   .sidebar #side_menu .menu01 {
-    background-image: url(/img/side_menu01bg.jpg) no-repeat;
+    background-image: url(../img/side_menu01bg.jpg) no-repeat;
     display: block;
     padding: 36px 7px 7px;
     margin-top: 13px;
@@ -1063,7 +1063,7 @@
     padding: 36px 7px 7px;
     margin-top: 13px;
     background-color: #F8EEED;
-    background-image: url(/img/side_menu02bg.jpg);
+    background-image: url(../img/side_menu02bg.jpg);
     background-repeat: no-repeat;
   }
 
