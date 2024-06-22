@@ -1566,6 +1566,13 @@ a:link {
 }
 
 
+@media (min-width: 960px) {
+  .m-case__body {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: min(100 / 1280* 100* var(--vw, 1vw), 6.25rem);
+    gap: min(40 / 1280* 100* var(--vw, 1vw), 2.5rem) min(30 / 1280* 100* var(--vw, 1vw), 1.875rem);
+  }
+}
 
 
 @media (min-width: 960px) {
@@ -1649,7 +1656,7 @@ a:link {
   .announce__tel-num {
     font-size: 36px;
     padding-top: 9%;
-    
+
   }
 
   .announce__tel {
