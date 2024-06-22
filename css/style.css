@@ -1115,8 +1115,7 @@ li {
 
 .m-case__body {
   display: grid;
-  margin-bottom: min(80 / 375* 100* var(--vw, 1vw), 128px);
-  gap: min(20 / 375* 100* var(--vw, 1vw), 32px) 0;
+  margin-bottom: 0px;
 }
 
 .c-case-card {
@@ -1572,8 +1571,7 @@ a:link {
 @media (min-width: 960px) {
   .m-case__body {
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: min(100 / 1280* 100* var(--vw, 1vw), 6.25rem);
-    gap: min(40 / 1280* 100* var(--vw, 1vw), 2.5rem) min(30 / 1280* 100* var(--vw, 1vw), 1.875rem);
+    margin-bottom: 0px;
   }
 
   .c-case-card {
@@ -3778,7 +3776,7 @@ reason
 	調整
 ---------------------------------- */
 .l-contact-lp {
-  margin: 10% 0 0 0;
+  margin: 0% 0 0 0;
 }
 
 @media (min-width: 767px) {
