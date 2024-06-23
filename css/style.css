@@ -4907,33 +4907,19 @@ a img:hover {
   }
 }
 
-
-
-
-
-
-
-
-
 .m-text-color-important-dark {
   color: var(--color-brand);
 }
-
-
-
-
 
 .title {
   width: 1070px;
   margin: 0 auto;
 }
 
-
 .mt2-font {
-  font-size: 19px;
-  line-height: 30px;
+  font-size: 17px;
+  line-height: 27px;
 }
-
 
 figure.imgBox-local.sp {
   width: 300px;
