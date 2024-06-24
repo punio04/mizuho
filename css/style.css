@@ -4874,6 +4874,14 @@ a img:hover {
   box-sizing: border-box;
 }
 
+.BoxGray {
+  padding: 1rem;
+  background: white;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 999px) {
   .lp-caseInner {
     padding: 0 2%;
@@ -4904,6 +4912,10 @@ a img:hover {
   .lp-caseItemText {
     font-size: 3.0vw;
     padding: 0.5rem;
+  }
+
+  .BoxGray {
+    margin-top: 1.6rem;
   }
 }
 
